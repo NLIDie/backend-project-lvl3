@@ -1,0 +1,49 @@
+{
+  "name": "page-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "node",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwoKDev/backend-project-lvl3.git"
+  },
+  "author": "Kirill Kostikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwoKDev/backend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/TwoKDev/backend-project-lvl3#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "@jest/globals": "28.1.1",
+    "eslint": "8.18.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.5.3",
+    "jest": "28.1.1",
+    "jest-cli": "28.1.1"
+  },
+  "dependencies": {
+    "commander": "9.3.0",
+    "lodash": "4.17.21"
+  }
+}
